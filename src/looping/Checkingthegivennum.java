@@ -9,17 +9,15 @@ public class Checkingthegivennum {
 		int number=sc.nextInt();
 		if(number<0) {
 			System.out.println("the negative number"+number);
-			
+
 		}else if(number>0){
 			System.out.print("the positve number is"+ number);
-			
+
 		}else if(number==0) {
 			System.out.println("the given number is"+number);
 		}
 		else {
 			System.out.println("its not a number");
 		}
-		
 	}
-
 }

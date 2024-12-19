@@ -1,7 +1,6 @@
 package controlflow;
 import java.util.Scanner;
 public class Factorial {
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the number");
@@ -19,7 +18,6 @@ public class Factorial {
 			}
 			System.out.println("the factorial of number"+number+" the factorial of the number"+factorial);
 		}
-		
-	}
 
+	}
 }

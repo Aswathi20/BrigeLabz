@@ -15,12 +15,10 @@ public class Largestofthree {
 			System.out.println("number one is largest"+number1);
 		}else if(number2>number1&& number2>number1 ) {
 			System.out.println("number two is largest"+number2);
-			
-			
+
+
 		}else {
 			System.out.println("number three is largest"+number3);
 		}
-		
 	}
-
 }

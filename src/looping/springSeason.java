@@ -7,7 +7,7 @@ public class springSeason{
 		int month=sc.nextInt();
 		System.out.println("Enter the day");
 		int day=sc.nextInt();
-		
+
 		if((month==3 && day>20)||(month>=3&& month<=6)||(day>20&&day<31)) {
 			System.out.println("its the spring season");
 		}
@@ -15,5 +15,4 @@ public class springSeason{
 			System.out.print("its not a spring seanson");
 		}
 	}
-	
 }

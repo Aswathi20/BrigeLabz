@@ -8,18 +8,14 @@ public class Sumofnumbers {
 		System.out.println("enter the user input");
 		double number=sc.nextDouble();
 		double total=0.0;
-		
+
 		if(number!=0) {
 			total+=number;
 			System.out.println(total);
-			
+
 		}
 		else {
 			System.out.println("the value entered is zero");
 		}
-		
-		
-
 	}
-
 }

@@ -15,43 +15,36 @@ public class Toconvertdistancetomeils {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the name");
 		String name=sc.nextLine();
-		
+
 		System.out.println("Enter the from city");
-		
+
 		String fromcity=sc.nextLine();
-		
+
 		System.out.println("Enter the viacity");
-		
+
 		String viacity=sc.nextLine();
-		
+
 		System.out.println("Enter the tocity");
-		
+
 		String tocity=sc.nextLine();
 		System.out.println("Enter the viacity distance");
-		
+
 		double distancecoverd=sc.nextDouble();
-		
+
 		System.out.println("enter the to city");
 		double covereddistance=sc.nextDouble();
-		
+
 		System.out.println("enter the time taken");
 		double timetaken=sc.nextDouble();
-		
+
 		//covert the distance to meils
-		
 		double totaldistance= distancecoverd+covereddistance;
 
 		double averagetimetaken=totaldistance/timetaken;
-		
+
 		double adjusteddistsnce= totaldistance*1.60934;
-		
-		
 		System.out.println("The distane cover viacity"+distancecoverd+"and the distance "
 				+ "covered to city"+covereddistance+"total distance covered is"+totaldistance);
-		
-		
-		
-		
 	}
 
 }

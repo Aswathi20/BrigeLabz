@@ -11,7 +11,5 @@ public class Votechecker {
 		}else {
 			System.out.println("The person's age is"+age+ " cannote vote");
 		}
-
 	}
-
 }
