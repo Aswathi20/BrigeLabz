@@ -5,15 +5,11 @@ public class HarshadNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number");
 		int number=sc.nextInt();
-
 		int sum=0;
-
 		while(number!=0) {
 			int reminder=number%10;
 			sum+=reminder;
 			number/=10;
-
-
 		}
 		if(number/sum==0) {
 			System.out.print("the given number is hashed number");

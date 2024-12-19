@@ -1,7 +1,6 @@
 package controlflow;
 import java.util.Scanner;
 public class Naturalnumbers {
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the number");
@@ -16,7 +15,6 @@ public class Naturalnumbers {
 			int sumloop=0;
 			for(int i=0;i<=naturalnum;i++) {
 				sumloop+=i;
-
 			}
 			System.out.println("the sum of natural number using loops"+" "+sumloop);
 			System.out.println("the sum of natural number using formula"+" "+sumofnatural);

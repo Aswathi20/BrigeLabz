@@ -1,7 +1,5 @@
 package controlflow;
-
 import java.util.Scanner;
-
 public class EmployeeBonusCalculator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

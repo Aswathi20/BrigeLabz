@@ -1,7 +1,5 @@
 package operatorprogram;
-
 public class Toggle {
-
 	public static void toggleBoolean() {
 		boolean flag = true;
 		System.out.println("Initial value: " + flag);

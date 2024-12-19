@@ -1,6 +1,5 @@
 package controlflow;
 import java.util.Scanner;
-
 public class AbundantNumber {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -17,6 +16,5 @@ public class AbundantNumber {
 		} else {
 			System.out.println(number + " is NOT an Abundant Number.");
 		}
-
 	}
 }

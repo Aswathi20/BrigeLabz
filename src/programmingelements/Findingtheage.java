@@ -1,7 +1,5 @@
 package programmingelements;
-
 public class Findingtheage {
-
 	public static void main(String[] args) {
 		int yearofbirth=2000;
 		int currentyear=2024;

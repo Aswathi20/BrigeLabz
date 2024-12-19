@@ -9,7 +9,6 @@ public class Ternaryop {
 		int min = (num1 < num2) ? num1 : num2;
 		System.out.println("Minimum number: " + min);
 	}
-
 	public static void main(String[] args) {
 		minOfTwoNumbers();
 	}

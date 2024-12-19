@@ -1,8 +1,6 @@
 package programmingelements;
-
 public class Avaragepercentage {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		int maths=94;
 		int physics=95;
 		int chemistry =96;

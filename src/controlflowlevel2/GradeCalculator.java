@@ -1,7 +1,6 @@
 package controlflowlevel2;
 
 import java.util.Scanner;
-
 public class GradeCalculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -11,10 +10,8 @@ public class GradeCalculator {
 		int chemistry = sc.nextInt();
 		System.out.print("Enter marks in Maths: ");
 		int maths = sc.nextInt();
-
 		int total = physics + chemistry + maths;
 		double percentage = total / 3.0;
-
 		System.out.println("\nAverage Marks: " + percentage + "%");
 		String grade;
 		String remarks;

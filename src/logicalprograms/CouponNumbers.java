@@ -1,8 +1,5 @@
 package logicalprograms;
-
 public class CouponNumbers {
-
-
 	public static int getDistinctCoupons(int N) {
 		int[] coupons = new int[N];  
 		int randomCount = 0;  

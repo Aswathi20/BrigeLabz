@@ -1,7 +1,5 @@
 package programmingelements;
-
 import java.util.Scanner;
-
 public class DistanceConverter {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

@@ -12,7 +12,6 @@ public class AverageCalculation {
 		double average = (num1 + num2 + num3 + num4 + num5) / 5.0;
 		System.out.println("Average: " + average);
 	}
-
 	public static void main(String[] args) {
 		averageCalculation();
 	}

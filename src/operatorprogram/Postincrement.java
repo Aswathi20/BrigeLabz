@@ -7,7 +7,6 @@ public class Postincrement {
 		System.out.println("After post-increment: " + num);
 		System.out.println("Pre-increment: " + (++num));
 	}
-
 	public static void main(String[] args) {
 		postAndPreIncrement();
 	}

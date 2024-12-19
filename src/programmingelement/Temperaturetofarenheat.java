@@ -8,17 +8,11 @@ public class Temperaturetofarenheat {
 	I/P => celcius
 	O/P =>  The ____ celsius is _____ fahrenheit*/
 
-
 	public static void main(String[] args) {
-
 		Scanner sc=new Scanner(System.in);
-
 		System.out.println("enter the celcius ");
-
 		double celcius=sc.nextDouble();
-
 		double fahrenheitresult=(celcius*9/5)+32;
-
 		System.out.println("The "+" "+celcius+" "+" celsius is"+ " "+fahrenheitresult
 				);
 	}

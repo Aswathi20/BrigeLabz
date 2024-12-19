@@ -1,5 +1,4 @@
 package operatorprogram;
-
 import java.util.Scanner;
 public class Mutiplicationtable{
 	public static void multiplicationTable() {

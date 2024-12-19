@@ -1,11 +1,7 @@
 package programmingelements;
-
 import java.util.Scanner;
-
 public class Calculatetotalprice {
-
 	public static void main(String[] args) {
-
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the price ");
 		int price=sc.nextInt();

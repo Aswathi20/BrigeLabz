@@ -1,9 +1,6 @@
 package programmingelements;
-
 import java.util.Scanner;
-
 public class TriangleArea {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		final double CM_TO_INCHES = 0.393701;
